@@ -19,7 +19,6 @@ public class LoginCheck {
         username.sendKeys("aboba@gmail.com");
         WebElement button = driver.findElement(By.xpath("//button[@class='FlatButton FlatButton--primary FlatButton--size-l FlatButton--wide VkIdForm__button VkIdForm__signInButton']"));
         button.click();
-        // Следующая строка игнорируется, вне зависимости от того находит ли строку span Xpath Helper или нет
         WebElement buttonContinue = driver.findElement(By.xpath("//span[@class='vkuiButton__content vkuiText vkuiText--sizeY-compact vkuiText--w-2']"));
         buttonContinue.click();
     }
