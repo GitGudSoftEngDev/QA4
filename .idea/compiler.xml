@@ -12,5 +12,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding windows-1251" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="QA4" options="" />
+    </option>
   </component>
 </project>
