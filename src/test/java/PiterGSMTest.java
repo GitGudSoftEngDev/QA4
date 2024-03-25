@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class PiterGSM {
+public class PiterGSMTest {
 
     WebDriver driver = new FirefoxDriver();
 
