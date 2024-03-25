@@ -17,7 +17,7 @@ public class PiterGSMTest {
     @Test
     public void login() {
         driver.manage().window().maximize();
-        Duration implicitWait = Duration.ofSeconds(5);
+        Duration implicitWait = Duration.ofSeconds(15);
         driver.get("https://pitergsm.ru/");
         WebElement buttonContinue = (new WebDriverWait(driver, implicitWait))
                 .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='city-popup__top']")));
